@@ -87,7 +87,7 @@ stat
 文件：metadata, data  
 三个时间戳： 
 access time：访问时间，atime，读取文件内容    
-modify time: 修改时间, mtime，改变文件内容（数据） 
+modify time: 修改时间, mtime，改变文件内容（数据）   
 change time: 改变时间, ctime，元数据发生改变 
 
 *匹配零个或多个字符  
@@ -117,9 +117,11 @@ change time: 改变时间, ctime，元数据发生改变
 
 
 设置语言  
-/etc/sysconfig/i18n
-touch -- -a=touch./-a=touch 绝对路径/-a  
-删除也是这三种方式
+/etc/sysconfig/i18n  
+
+touch -- -a=touch./-a=touch 绝对路径/-a    
+删除也是这三种方式  
+
 6版本中有个神奇的目录叫misc，我们只要输入cd /misc/cd 就会进入到挂载好的目录中
 
 
